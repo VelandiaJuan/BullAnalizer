@@ -52,9 +52,7 @@
             "ee01b6d1.f76f98"
         ],
         "x": 28,
-        "y": 13,
-        "w": 1604,
-        "h": 1114
+        "y": 13
     },
     {
         "id": "6e3beedd60dca251",
@@ -70,12 +68,13 @@
             "7e0625da.a5746c",
             "4a152bf2.aedbf4",
             "1eb399c9a54fa23f",
-            "848f2a15824cb334"
+            "848f2a15824cb334",
+            "fcfd195f2b0023d2"
         ],
-        "x": 234,
+        "x": 74,
         "y": 59,
-        "w": 772,
-        "h": 82
+        "w": 792,
+        "h": 142
     },
     {
         "id": "b8bd404be934fa18",
@@ -95,9 +94,7 @@
             "c55f66f375e44d6b"
         ],
         "x": 18,
-        "y": 99,
-        "w": 1894,
-        "h": 468
+        "y": 99
     },
     {
         "id": "1d0c3cb2.7129f3",
@@ -121,9 +118,7 @@
             "e39536e36180e4d8"
         ],
         "x": 14,
-        "y": 771.5,
-        "w": 792,
-        "h": 337
+        "y": 771.5
     },
     {
         "id": "e9e93a2c.deeb18",
@@ -142,9 +137,67 @@
             "37f2db57.b831c4"
         ],
         "x": 24,
-        "y": 619,
-        "w": 422,
-        "h": 122
+        "y": 619
+    },
+    {
+        "id": "23a0db1c9613c4e1",
+        "type": "group",
+        "z": "6518aabe6f06f6f4",
+        "name": "Data Motor",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "6b6e49f24907fda2",
+            "ecef4b7401c4b23b",
+            "b4dbec00c3815b08",
+            "11a0cc51ad30589b",
+            "b3c24d8804f42604",
+            "ce9cadb3f9eb69f9",
+            "608afb87fd4d9d29",
+            "9a94fafdc1d876f2",
+            "8a74382dfcef0010",
+            "03a5023cc8fba560"
+        ],
+        "x": 4,
+        "y": 599
+    },
+    {
+        "id": "9b538856.60fb38",
+        "type": "group",
+        "z": "03f12b36abe7a37c",
+        "name": "Memoria USB",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "37820ee5.859272",
+            "9562fc1.ada0d",
+            "8f26d964.56a778",
+            "8102dc0f.63d08",
+            "45ba8097.f74b1",
+            "8db0f092.83eb9",
+            "febace6d.62f9c",
+            "88dcdbf8.24dc88",
+            "8f928b10.7d7368",
+            "b67add6d.8a94a",
+            "bd43bd09.9aab9",
+            "f8f6d7e7.a66d88",
+            "bc78207d.aabd4",
+            "85d73faa.116d8",
+            "7b1a1485.ef152c",
+            "8c3a98707b868c5f",
+            "ecf97624.7b4b68",
+            "52cd31545cc2a8c7",
+            "df4ced7ff82833e9",
+            "8be7ccc2c2213c37",
+            "a5dc343834a49350"
+        ],
+        "x": 74,
+        "y": 219,
+        "w": 1682,
+        "h": 239.5
     },
     {
         "id": "70a63b74.44894c",
@@ -164,9 +217,7 @@
             "d22f737e1faaee45"
         ],
         "x": 54,
-        "y": 939,
-        "w": 412,
-        "h": 162
+        "y": 939
     },
     {
         "id": "ee01b6d1.f76f98",
@@ -227,9 +278,7 @@
             "20a33011be6557f7"
         ],
         "x": 54,
-        "y": 39,
-        "w": 1552,
-        "h": 842
+        "y": 39
     },
     {
         "id": "79baabe43250cc9f",
@@ -255,9 +304,7 @@
             "91adf3df1df1bf4e"
         ],
         "x": 44,
-        "y": 179,
-        "w": 572,
-        "h": 362
+        "y": 179
     },
     {
         "id": "a4f221d85b9581dd",
@@ -288,35 +335,7 @@
             "a258d4d09931e14f"
         ],
         "x": 634,
-        "y": 299,
-        "w": 1252,
-        "h": 242
-    },
-    {
-        "id": "23a0db1c9613c4e1",
-        "type": "group",
-        "z": "6518aabe6f06f6f4",
-        "name": "Data Motor",
-        "style": {
-            "label": true,
-            "color": "#000000"
-        },
-        "nodes": [
-            "6b6e49f24907fda2",
-            "ecef4b7401c4b23b",
-            "b4dbec00c3815b08",
-            "11a0cc51ad30589b",
-            "b3c24d8804f42604",
-            "ce9cadb3f9eb69f9",
-            "608afb87fd4d9d29",
-            "9a94fafdc1d876f2",
-            "8a74382dfcef0010",
-            "03a5023cc8fba560"
-        ],
-        "x": 4,
-        "y": 599,
-        "w": 482,
-        "h": 362
+        "y": 299
     },
     {
         "id": "ae58460d.12c698",
@@ -487,6 +506,52 @@
         "name": "Principal",
         "tab": "1ecc5089.33b77f",
         "order": 3,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "96673cccb7d6d3b7",
+        "type": "modbus-client",
+        "name": "VSD",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "192.168.2.78",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": 1,
+        "commandDelay": 1,
+        "clientTimeout": 1000,
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": 2000,
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "39b0ef76ddce19c4",
+        "type": "ui_tab",
+        "name": "USB",
+        "icon": "fa-calendar",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5dfac8a081869c8f",
+        "type": "ui_group",
+        "name": "Principal",
+        "tab": "39b0ef76ddce19c4",
+        "order": 1,
         "disp": false,
         "width": "16",
         "collapse": false,
@@ -1702,15 +1767,15 @@
         "id": "a26daa21fd0e2064",
         "type": "function",
         "z": "813aa2de297becf0",
-        "name": "Adquision",
+        "name": "AdquisionElectrico",
         "func": "var data = [1,2,3,4,5,6,7,8,9,10,11];\n\nvar VSDABB = {\n    current: data[0],\n    busDc: data[1],\n    hzMotor: data[2],\n    spm: data[3],\n    torqueMotor : data[4],\n    voltajeMotor: data[5],\n    potencia : data[6],\n    factorPotencia : data[7],\n}\n\nglobal.set('VSDABB.Motor', VSDABB ,'memoryOnly');//guardando la variable global\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 120,
+        "x": 370,
+        "y": 80,
         "wires": [
             []
         ]
@@ -1723,12 +1788,77 @@
         "links": [
             "7e6534ef71b0201d"
         ],
-        "x": 315,
-        "y": 120,
+        "x": 235,
+        "y": 80,
         "wires": [
             [
                 "a26daa21fd0e2064"
             ]
+        ]
+    },
+    {
+        "id": "a118f1d86e198e61",
+        "type": "function",
+        "z": "813aa2de297becf0",
+        "name": "Lectura PQA",
+        "func": "var count = context.get(\"Count\")||0;\n\n// Real Time Parameters\nif(count === 0){\n    msg.topic = \"Real Time Parameters\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16384, \n                    'quantity': 39*2 \n    }\n    count ++;\n}\n\n// Energy Parameters\nelse if (count == 1){\n    msg.topic = \"Energy Parameters\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16456, \n                    'quantity': 24*2 \n    }\n    count ++;\n}\n\n// Harmonics - Power Quality\nelse if (count == 2){\n    msg.topic = \"Power Quality\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16474, \n                    'quantity': 8 \n    }\n    count ++;\n}\n\n// Phase Angles\nelse if (count == 3){\n    msg.topic = \"Phase Angles\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 17056, \n                    'quantity': 5 \n    }\n    count ++;\n}\nelse if (count == 4){\n    msg.topic = \"Harmonics_V1(V12)\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16482, \n                    'quantity': 12 \n    }\n    count ++;\n}\nelse if (count == 5){\n    msg.topic = \"Harmonics_V2(V31)\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16516, \n                    'quantity': 12 \n    }\n    count ++;\n}\nelse if (count == 6){\n    msg.topic = \"Harmonics_V3(V23)\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16550, \n                    'quantity': 12 \n    }\n    count ++;\n}\nelse if (count == 7){\n    msg.topic = \"Harmonics_I1\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16584, \n                    'quantity': 12 \n    }\n    count ++;\n}\nelse if (count == 8){\n    msg.topic = \"Harmonics_I2\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16617, \n                    'quantity': 12 \n    }\n    count ++;\n}\nelse if (count == 9){\n    msg.topic = \"Harmonics_I3\";\n    msg.payload = { 'fc': 3, \n                    'unitid': 5, \n                    'address': 16650, \n                    'quantity': 12 \n    }\n    count ++;\n}\n\n// Error\nelse {\n    msg.topic = msg.payload;\n    msg.payload = \"Function Error!\";\n}\n\n// Count Reset\nif(count > 9){count = 0;}\n\n// Context update\ncontext.set(\"Count\",count);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 180,
+        "wires": [
+            [
+                "b2b05f781dc1c5ab"
+            ]
+        ]
+    },
+    {
+        "id": "71843401527cbc92",
+        "type": "inject",
+        "z": "813aa2de297becf0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "0.5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "x": 290,
+        "y": 180,
+        "wires": [
+            [
+                "a118f1d86e198e61"
+            ]
+        ]
+    },
+    {
+        "id": "b2b05f781dc1c5ab",
+        "type": "modbus-flex-getter",
+        "z": "813aa2de297becf0",
+        "name": "VSD",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "server": "96673cccb7d6d3b7",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [],
+            []
         ]
     },
     {
@@ -1747,7 +1877,7 @@
         "strings": true,
         "include_empty_strings": false,
         "include_null_values": false,
-        "x": 790,
+        "x": 650,
         "y": 100,
         "wires": [
             [
@@ -1760,14 +1890,14 @@
         "type": "function",
         "z": "03f12b36abe7a37c",
         "g": "6e3beedd60dca251",
-        "name": "Creación de archivo",
+        "name": "Creación de archivo PC",
         "func": "\nvar PQA               = global.get(\"PQA.Real_Time_Parameters\",'memoryOnly')   || null;\nvar Energy_Parameters = global.get(\"PQA.Energy_Parameters\",'memoryOnly')   || null;\nvar C2S               = global.get(\"C2S.Implicit\",'memoryOnly')               || null;\nvar DownHoleData      = global.get('Process_data','memoryOnly')               || null;\nvar MotorV            = global.get(\"C2S.Implicit.Output_Voltage\", 'memoryOnly') || 0;\nvar MotorI            = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar date              = new Date();\nvar VSDABB            = global.get('VSDABB','memoryOnly')||0;\n// Date\nvar year            = date.getFullYear();\nvar month           = date.getMonth()+1;\nvar day             = date.getDate();\n\n//Time\nvar hours           = date.getHours();\nvar minutes         = date.getMinutes();\nvar seconds         = date.getSeconds();\n// Corriente y tensión de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar Voltaje_Motor   =  MotorV * Rtx;\nvar Corriente_Motor =  MotorI / Rtx;\n\n// condiciones de ruta\nvar directorio = 'C:/Users/Velandia Juan/Desktop/DataloggerBull/';\nvar fecha = year + '/' + month + '-Month/' + day + '-day';\ndirectorio = directorio + '/' + fecha + '.csv'\nflow.set('directorio', directorio)\n\n\nmsg.payload = {\n    'fecha_hora'               : year + '/' + month + '/' + day + \" \" + hours + ':' + minutes + ':' + seconds,\n    'Frequency'                : PQA != null && typeof PQA.Frequency                                       != 'undefined' ? parseFloat(PQA.Frequency).toFixed(3) : \"0\",\n    'Average_Line_Voltage'     : PQA != null && typeof PQA.Average_Line_Voltage                            != 'undefined' ? parseFloat(PQA.Average_Line_Voltage).toFixed(3) : \"0\",\n    'Average_Phase_Current'    : PQA != null && typeof PQA.Average_Phase_Current                           != 'undefined' ? parseFloat(PQA.Average_Phase_Current).toFixed(3) : \"0\",\n    'Total_System_Power'       : PQA != null && typeof PQA.Total_System_Power                              != 'undefined' ? parseFloat(PQA.Total_System_Power).toFixed(3) : \"0\",\n    'Total_Power_Factor'       : PQA != null && typeof PQA.Total_Power_Factor                              != 'undefined' ? parseFloat(PQA.Total_Power_Factor).toFixed(3) : \"0\",\n    'Consumed_Energy'          : Energy_Parameters != null && typeof Energy_Parameters.Consumed_Energy != 'undefined' ? parseFloat(Energy_Parameters.Consumed_Energy).toFixed(3) : \"0\",\n    'Generated_Energy'         : Energy_Parameters != null && typeof Energy_Parameters.Generated_Energy != 'undefined' ? parseFloat(Energy_Parameters.Generated_Energy).toFixed(3) : \"0\",\n    'Consumed_Reactive_Energy' : Energy_Parameters != null && typeof Energy_Parameters.Consumed_Reactive_Energy != 'undefined' ? parseFloat(Energy_Parameters.Consumed_Reactive_Energy).toFixed(3) : \"0\",\n    'Generated_Reactive_Energy': Energy_Parameters != null && typeof Energy_Parameters.Generated_Reactive_Energy != 'undefined' ? parseFloat(Energy_Parameters.Generated_Reactive_Energy).toFixed(3) : \"0\",\n    'Total_Energy'             : Energy_Parameters != null && typeof Energy_Parameters.Total_Energy != 'undefined' ? parseFloat(Energy_Parameters.Total_Energy).toFixed(3) : \"0\",\n    'ABBCurrent'               : VSDABB.Motor.current,\n    'ABBbusDc'                 : VSDABB.Motor.busDc,\n    'ABBhzMotor'               : VSDABB.Motor.hzMotor,\n    'ABBtorqueMotor'           : VSDABB.Motor.torqueMotor,\n    'ABBvoltajeMotor'          : VSDABB.Motor.voltajeMotor,\n    'ABBpotencia'              : VSDABB.Motor.potencia,\n    'ABBfactorPotencia'        : VSDABB.Motor.factorPotencia,\n}\n\n// Archivo\nmsg.columns = Object.keys(msg.payload).toString();\n\nvar variables = {\n    fecha:fecha,\n    directorio: directorio,\n    contenido: msg.payload\n}\ncontext.set('variables',variables,'memoryOnly')\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 500,
+        "x": 350,
         "y": 100,
         "wires": [
             [
@@ -1786,7 +1916,7 @@
         "createDir": true,
         "overwriteFile": "false",
         "encoding": "utf8",
-        "x": 920,
+        "x": 780,
         "y": 100,
         "wires": [
             []
@@ -1804,7 +1934,7 @@
         "once": true,
         "onceDelay": "1",
         "topic": "",
-        "x": 330,
+        "x": 170,
         "y": 100,
         "wires": [
             [
@@ -1832,13 +1962,531 @@
         "from": "",
         "to": "",
         "reg": false,
-        "x": 670,
+        "x": 530,
         "y": 100,
         "wires": [
             [
                 "4ea7eb06.9f2174"
             ]
         ]
+    },
+    {
+        "id": "fcfd195f2b0023d2",
+        "type": "function",
+        "z": "03f12b36abe7a37c",
+        "g": "6e3beedd60dca251",
+        "name": "Creación de archivo",
+        "func": "\nvar PQA               = global.get(\"PQA.Real_Time_Parameters\",'memoryOnly')   || null;\nvar Energy_Parameters = global.get(\"PQA.Energy_Parameters\",'memoryOnly')   || null;\nvar C2S               = global.get(\"C2S.Implicit\",'memoryOnly')               || null;\nvar DownHoleData      = global.get('Process_data','memoryOnly')               || null;\nvar MotorV            = global.get(\"C2S.Implicit.Output_Voltage\", 'memoryOnly') || 0;\nvar MotorI            = global.get(\"C2S.Implicit.Output_Current\", 'memoryOnly') || 0;\nvar date              = new Date();\nvar VSDABB            = global.get('VSDABB','memoryOnly')||0;\n// Date\nvar year            = date.getFullYear();\nvar month           = date.getMonth()+1;\nvar day             = date.getDate();\n\n//Time\nvar hours           = date.getHours();\nvar minutes         = date.getMinutes();\nvar seconds         = date.getSeconds();\n// Corriente y tensión de motor\nvar Rtx = global.get(\"C2S.RelTx\") || 1;\nvar Voltaje_Motor   =  MotorV * Rtx;\nvar Corriente_Motor =  MotorI / Rtx;\n\n// condiciones de ruta\nvar directorio = '/home/bcpgrp/Documents/DataloggerBull';\nvar fecha = year + '/' + month + '-Month/' + day + '-day';\ndirectorio = directorio + '/' + fecha + '.csv'\nflow.set('directorio', directorio)\n\n\nmsg.payload = {\n    'fecha_hora'               : year + '/' + month + '/' + day + \" \" + hours + ':' + minutes + ':' + seconds,\n    'Frequency'                : PQA != null && typeof PQA.Frequency                                       != 'undefined' ? parseFloat(PQA.Frequency).toFixed(3) : \"0\",\n    'Average_Line_Voltage'     : PQA != null && typeof PQA.Average_Line_Voltage                            != 'undefined' ? parseFloat(PQA.Average_Line_Voltage).toFixed(3) : \"0\",\n    'Average_Phase_Current'    : PQA != null && typeof PQA.Average_Phase_Current                           != 'undefined' ? parseFloat(PQA.Average_Phase_Current).toFixed(3) : \"0\",\n    'Total_System_Power'       : PQA != null && typeof PQA.Total_System_Power                              != 'undefined' ? parseFloat(PQA.Total_System_Power).toFixed(3) : \"0\",\n    'Total_Power_Factor'       : PQA != null && typeof PQA.Total_Power_Factor                              != 'undefined' ? parseFloat(PQA.Total_Power_Factor).toFixed(3) : \"0\",\n    'Consumed_Energy'          : Energy_Parameters != null && typeof Energy_Parameters.Consumed_Energy != 'undefined' ? parseFloat(Energy_Parameters.Consumed_Energy).toFixed(3) : \"0\",\n    'Generated_Energy'         : Energy_Parameters != null && typeof Energy_Parameters.Generated_Energy != 'undefined' ? parseFloat(Energy_Parameters.Generated_Energy).toFixed(3) : \"0\",\n    'Consumed_Reactive_Energy' : Energy_Parameters != null && typeof Energy_Parameters.Consumed_Reactive_Energy != 'undefined' ? parseFloat(Energy_Parameters.Consumed_Reactive_Energy).toFixed(3) : \"0\",\n    'Generated_Reactive_Energy': Energy_Parameters != null && typeof Energy_Parameters.Generated_Reactive_Energy != 'undefined' ? parseFloat(Energy_Parameters.Generated_Reactive_Energy).toFixed(3) : \"0\",\n    'Total_Energy'             : Energy_Parameters != null && typeof Energy_Parameters.Total_Energy != 'undefined' ? parseFloat(Energy_Parameters.Total_Energy).toFixed(3) : \"0\",\n    'ABBCurrent'               : VSDABB.Motor.current,\n    'ABBbusDc'                 : VSDABB.Motor.busDc,\n    'ABBhzMotor'               : VSDABB.Motor.hzMotor,\n    'ABBtorqueMotor'           : VSDABB.Motor.torqueMotor,\n    'ABBvoltajeMotor'          : VSDABB.Motor.voltajeMotor,\n    'ABBpotencia'              : VSDABB.Motor.potencia,\n    'ABBfactorPotencia'        : VSDABB.Motor.factorPotencia,\n}\n\n// Archivo\nmsg.columns = Object.keys(msg.payload).toString();\n\nvar variables = {\n    fecha:fecha,\n    directorio: directorio,\n    contenido: msg.payload\n}\ncontext.set('variables',variables,'memoryOnly')\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37820ee5.859272",
+        "type": "ui_text",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "group": "5dfac8a081869c8f",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "USB",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "x": 610,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "9562fc1.ada0d",
+        "type": "comment",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "Memorias USB",
+        "info": "",
+        "x": 180,
+        "y": 270,
+        "wires": []
+    },
+    {
+        "id": "8f26d964.56a778",
+        "type": "watch",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "files": "/media/bcpgrp",
+        "recursive": false,
+        "x": 170,
+        "y": 310,
+        "wires": [
+            [
+                "8102dc0f.63d08",
+                "88dcdbf8.24dc88",
+                "febace6d.62f9c",
+                "8be7ccc2c2213c37"
+            ]
+        ]
+    },
+    {
+        "id": "8102dc0f.63d08",
+        "type": "exec",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "command": "df /dev/sda1",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "45ba8097.f74b1",
+        "type": "ui_button",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "group": "5dfac8a081869c8f",
+        "order": 4,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Expulsar USB",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 1180,
+        "y": 410,
+        "wires": [
+            [
+                "8db0f092.83eb9"
+            ]
+        ]
+    },
+    {
+        "id": "8db0f092.83eb9",
+        "type": "exec",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "command": "sudo eject /dev/sdb1/",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1420,
+        "y": 410,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "febace6d.62f9c",
+        "type": "change",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "USB_Drive",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88dcdbf8.24dc88",
+        "type": "exec",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "command": "cd /media/bcpgrp && ls",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 400,
+        "y": 310,
+        "wires": [
+            [
+                "37820ee5.859272",
+                "8f928b10.7d7368",
+                "b67add6d.8a94a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8f928b10.7d7368",
+        "type": "switch",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "property": "type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "directory",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 340,
+        "wires": [
+            [
+                "8c3a98707b868c5f"
+            ]
+        ]
+    },
+    {
+        "id": "b67add6d.8a94a",
+        "type": "switch",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "property": "type",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "none",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 590,
+        "y": 410,
+        "wires": [
+            [
+                "bd43bd09.9aab9"
+            ]
+        ]
+    },
+    {
+        "id": "bd43bd09.9aab9",
+        "type": "change",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "Eventos",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Dispositivo USB Expulsado",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Dispositivo USB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 410,
+        "wires": [
+            [
+                "f8f6d7e7.a66d88"
+            ]
+        ]
+    },
+    {
+        "id": "f8f6d7e7.a66d88",
+        "type": "ui_toast",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "",
+        "name": "USB Expulsada",
+        "x": 880,
+        "y": 410,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc78207d.aabd4",
+        "type": "ui_toast",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "SI",
+        "cancel": "NO",
+        "raw": false,
+        "topic": "",
+        "name": "Descargar Datalogger",
+        "x": 940,
+        "y": 360,
+        "wires": [
+            [
+                "85d73faa.116d8"
+            ]
+        ]
+    },
+    {
+        "id": "85d73faa.116d8",
+        "type": "switch",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "SI",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "NO",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1110,
+        "y": 360,
+        "wires": [
+            [
+                "ecf97624.7b4b68"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7b1a1485.ef152c",
+        "type": "exec",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "command": "sudo cp -r /home/bcpgrp/Documents/DataloggerBull",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1530,
+        "y": 360,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8c3a98707b868c5f",
+        "type": "change",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "Datalogger",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "¿Desea descargar los archivos de Datalogger?",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Dispositivo USB encontrado",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 750,
+        "y": 360,
+        "wires": [
+            [
+                "bc78207d.aabd4"
+            ]
+        ]
+    },
+    {
+        "id": "ecf97624.7b4b68",
+        "type": "change",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "CP Directory",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "+++",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "+++",
+                "fromt": "str",
+                "to": "#:(memoryOnly)::USBname",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1250,
+        "y": 320,
+        "wires": [
+            [
+                "7b1a1485.ef152c",
+                "df4ced7ff82833e9"
+            ]
+        ]
+    },
+    {
+        "id": "52cd31545cc2a8c7",
+        "type": "inject",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1230,
+        "y": 280,
+        "wires": [
+            [
+                "ecf97624.7b4b68"
+            ]
+        ]
+    },
+    {
+        "id": "df4ced7ff82833e9",
+        "type": "debug",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1520,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8be7ccc2c2213c37",
+        "type": "function",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "name": "USB_Spaces",
+        "func": "var USB = global.get(\"USB_Drive\");\nvar div = USB.split(\"/\");\nvar aux = div[3].split(\" \");\nif (aux.length>1)\n    var name = \"/\" + div[1] + \"/\" + div[2] + \"/\" + \"'\" + div[3] + \"'\";\nelse\n    name = USB;\n\nflow.set(\"USBname\", name,\"memoryOnly\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5dc343834a49350",
+        "type": "ui_text",
+        "z": "03f12b36abe7a37c",
+        "g": "9b538856.60fb38",
+        "group": "5dfac8a081869c8f",
+        "order": 2,
+        "width": "3",
+        "height": "1",
+        "name": "",
+        "label": "NombreUSB",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 750,
+        "y": 280,
+        "wires": []
     },
     {
         "id": "ce96fe756e53c0a0",
