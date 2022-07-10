@@ -16,6 +16,30 @@
         "env": []
     },
     {
+        "id": "6518aabe6f06f6f4",
+        "type": "tab",
+        "label": "Visualizacion",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "813aa2de297becf0",
+        "type": "tab",
+        "label": "VSD",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f35c16add17629be",
+        "type": "tab",
+        "label": "Navegacion",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "38940f8.c9c27f",
         "type": "group",
         "z": "5763328140ab65c2",
@@ -31,6 +55,96 @@
         "y": 13,
         "w": 1604,
         "h": 1114
+    },
+    {
+        "id": "6e3beedd60dca251",
+        "type": "group",
+        "z": "03f12b36abe7a37c",
+        "name": "DataloggerPQA",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "4ea7eb06.9f2174",
+            "7e0625da.a5746c",
+            "4a152bf2.aedbf4",
+            "1eb399c9a54fa23f",
+            "848f2a15824cb334"
+        ],
+        "x": 234,
+        "y": 59,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "b8bd404be934fa18",
+        "type": "group",
+        "z": "6518aabe6f06f6f4",
+        "name": "Datos Eléctricos",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "79baabe43250cc9f",
+            "a4f221d85b9581dd",
+            "5a2d64a78596c4c1",
+            "cfca65816885ed45",
+            "8c65396ad9180d16",
+            "c55f66f375e44d6b"
+        ],
+        "x": 18,
+        "y": 99,
+        "w": 1894,
+        "h": 468
+    },
+    {
+        "id": "1d0c3cb2.7129f3",
+        "type": "group",
+        "z": "f35c16add17629be",
+        "name": "Kiosko Group",
+        "style": {
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "26428723.4b3e38",
+            "bfa48676.a364f8",
+            "66496d795f4ee7fc",
+            "64526cf8d08d9bc4",
+            "d6d77b20431c6fc2",
+            "5a3b6dbb1b06ecc3",
+            "8ff382d09fb168e3",
+            "8a4770bdf43b812c",
+            "95d0ba3af57e7b56",
+            "e39536e36180e4d8"
+        ],
+        "x": 14,
+        "y": 771.5,
+        "w": 792,
+        "h": 337
+    },
+    {
+        "id": "e9e93a2c.deeb18",
+        "type": "group",
+        "z": "f35c16add17629be",
+        "name": "UI-Control",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "color": "#000000"
+        },
+        "nodes": [
+            "7abe043b.fb14fc",
+            "97407954.a004c8",
+            "805762db.d27b7",
+            "37f2db57.b831c4"
+        ],
+        "x": 24,
+        "y": 619,
+        "w": 422,
+        "h": 122
     },
     {
         "id": "70a63b74.44894c",
@@ -118,25 +232,65 @@
         "h": 842
     },
     {
-        "id": "6e3beedd60dca251",
+        "id": "79baabe43250cc9f",
         "type": "group",
-        "z": "03f12b36abe7a37c",
-        "name": "DataloggerPQA",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "name": "Datos de fases",
         "style": {
             "label": true,
             "color": "#000000"
         },
         "nodes": [
-            "4ea7eb06.9f2174",
-            "7e0625da.a5746c",
-            "4a152bf2.aedbf4",
-            "1eb399c9a54fa23f",
-            "848f2a15824cb334"
+            "42aefbb15cef5169",
+            "ebb09443ee832552",
+            "1f8135572f14ee89",
+            "bb738cfa3cff7bc9",
+            "6c81d81d5af4b363",
+            "d205dbaea632b9c3",
+            "63918716efe5d959",
+            "824a933d151e6dd6",
+            "1f5eca3b3d4644e0",
+            "7690c62e63030907",
+            "91adf3df1df1bf4e"
         ],
-        "x": 234,
-        "y": 59,
-        "w": 772,
-        "h": 82
+        "x": 44,
+        "y": 179,
+        "w": 572,
+        "h": 362
+    },
+    {
+        "id": "a4f221d85b9581dd",
+        "type": "group",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "name": "Trend Harmonics",
+        "style": {
+            "fill": "#ffefbf",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "b7e3e782b317f3dd",
+            "fcb0150902a39169",
+            "c5fecc81ab99cbf5",
+            "2d16ae81892a1843",
+            "7f2810865baf7092",
+            "01a0273da1d95130",
+            "956a8248b1a90f29",
+            "be658f2d97c06ae7",
+            "cf48cc7a9e511e75",
+            "98082a63869f198c",
+            "a2eb2831d853fe64",
+            "955053ddb39412a7",
+            "395681ed3dad5171",
+            "328f4adfdbeef3a8",
+            "a258d4d09931e14f"
+        ],
+        "x": 634,
+        "y": 299,
+        "w": 1252,
+        "h": 242
     },
     {
         "id": "ae58460d.12c698",
@@ -162,6 +316,155 @@
         "reconnectOnTimeout": true,
         "reconnectTimeout": "2000",
         "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "764d8ce4.3c81b4",
+        "type": "ui_group",
+        "d": true,
+        "name": "Menu_Bar",
+        "tab": "1ecc5089.33b77f",
+        "order": 1,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ecc5089.33b77f",
+        "type": "ui_tab",
+        "name": "Principal",
+        "icon": "fa-home",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d284e6d7e2f1936b",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "f1ae75fa2e5787c5",
+        "type": "ui_tab",
+        "name": "VSDABB",
+        "icon": "fa-cogs ",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f61eea71fe8e60ac",
+        "type": "ui_group",
+        "name": "Principal",
+        "tab": "f1ae75fa2e5787c5",
+        "order": 1,
+        "disp": false,
+        "width": "16",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a9939834aa62d782",
+        "type": "ui_group",
+        "name": "Principal",
+        "tab": "1ecc5089.33b77f",
+        "order": 3,
+        "disp": true,
+        "width": "16",
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "5c5b638c.a8f91c",
@@ -951,7 +1254,7 @@
         "op2": "lostconnection",
         "op1type": "num",
         "op2type": "str",
-        "duration": "10",
+        "duration": "2",
         "extend": false,
         "overrideDelay": false,
         "units": "s",
@@ -959,7 +1262,7 @@
         "bytopic": "all",
         "topic": "topic",
         "outputs": 1,
-        "x": 410,
+        "x": 400,
         "y": 160,
         "wires": [
             [
@@ -1436,7 +1739,7 @@
         "g": "6e3beedd60dca251",
         "name": "",
         "props": [],
-        "repeat": "0.2",
+        "repeat": "0.5",
         "crontab": "",
         "once": true,
         "onceDelay": "1",
@@ -1475,6 +1778,1364 @@
             [
                 "4ea7eb06.9f2174"
             ]
+        ]
+    },
+    {
+        "id": "ce96fe756e53c0a0",
+        "type": "ui_template",
+        "z": "6518aabe6f06f6f4",
+        "group": "764d8ce4.3c81b4",
+        "name": "Logo / Clock",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script id=\"clockScript1\" type=\"text/javascript\">\n    var clockInterval;\n    $(function () {\n        if (clockInterval) return;\n\n        //add logo\n        var div1 = $('<div/>');\n        var logo = new Image();\n        var user =new Image();\n        logo.src = 'http://localhost:1880/swcpro-images/logoBCPGroup_bordeado.png'\n        logo.height = 60;\n        div1[0].style.margin = '5px auto';\n\n        div1.append(logo);\n        \n        //add clock\n        var div2 = $('<div/>');\n        var p = $('<p/>');\n\n        div2.append(p);\n        div2[0].style.margin = '10px auto';\n        \n        function displayTime() {\n        p.text(new Date().toLocaleString());\n        }\n        \n        clockInterval = setInterval(displayTime, 1000);\n        \n        \n        var div3=$('<div />');\n        var pol = $('<p id=\"headerStatus\" />');\n        \n        div3[0].style.margin = '5px 5px 5px auto';\n        div3.append(pol);\n        \n        //add to toolbar when it's available\n        var addToToolbarTimer;\n        \n        function addToToolbar() {\n            var toolbar = $('.md-toolbar-tools');\n\n            if(!toolbar.length) return;\n            toolbar.append(div3);\n            toolbar.append(div2);\n            toolbar.append(div1);\n            clearInterval(addToToolbarTimer);\n        }\n        addToToolbarTimer = setInterval(addToToolbar, 100);\n    });\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "global",
+        "className": "",
+        "x": 90,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42aefbb15cef5169",
+        "type": "function",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "name": "Data show",
+        "func": "var Chart_Selection = flow.get(\"PQA.Harmonics_Chart.Selection\", \"memoryOnly\") || \"\";\n\n\nvar Frecuencia = global.get(\"PQA.Real_Time_Parameters.Frequency\", 'memoryOnly') || 0;\nvar LN,LL,Corriente,Factor_Protecia,THDV,THDI,Potencia,FP;\n\nif (Chart_Selection == \"Linea1\") {\n    LL = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_1_2\", 'memoryOnly') || 0;\n    LN = global.get(\"PQA.Real_Time_Parameters.Phase_1_Voltage\", 'memoryOnly') || 0;\n    Corriente = global.get(\"PQA.Real_Time_Parameters.Total_Phase_A_Current\", 'memoryOnly') || 0;\n    THDV = global.get(\"PQA.Harmonics.Power_Quality['THD_V1(V12)']\",'memoryOnly')||0;\n    THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_I1\",'memoryOnly')||0;\n    Potencia = global.get(\"PQA.Real_Time_Parameters.Phase_A_Power\",'memoryOnly')||0;\n    FP = global.get(\"PQA.Real_Time_Parameters.Phase_A_Power_Factor\", 'memoryOnly') || 0;\n\n}\nelse if (Chart_Selection == \"Linea2\") {\n    LL = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_2_3\", 'memoryOnly') || 0;\n    LN = global.get(\"PQA.Real_Time_Parameters.Phase_2_Voltage\", 'memoryOnly') || 0;\n    Corriente = global.get(\"PQA.Real_Time_Parameters.Total_Phase_B_Current\", 'memoryOnly') || 0;\n    THDV = global.get(\"PQA.Harmonics.Power_Quality['THD_V2(V31)']\", 'memoryOnly') || 0;\n    THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_I2\", 'memoryOnly') || 0;\n    Potencia = global.get(\"PQA.Real_Time_Parameters.Phase_B_Power\", 'memoryOnly') || 0;\n    FP = global.get(\"PQA.Real_Time_Parameters.Phase_B_Power_Factor\", 'memoryOnly') || 0;\n}\nelse if (Chart_Selection == \"Linea3\") {\n    LL = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_3_1\", 'memoryOnly') || 0;\n    LN = global.get(\"PQA.Real_Time_Parameters.Phase_3_Voltage\", 'memoryOnly') || 0;\n    Corriente = global.get(\"PQA.Real_Time_Parameters.Total_Phase_C_Current\", 'memoryOnly') || 0;\n    THDV = global.get(\"PQA.Harmonics.Power_Quality['THD_V3(V23)']\", 'memoryOnly') || 0;\n    THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_I3\", 'memoryOnly') || 0;\n    Potencia = global.get(\"PQA.Real_Time_Parameters.Phase_C_Power\", 'memoryOnly') || 0;\n    FP = global.get(\"PQA.Real_Time_Parameters.Phase_C_Power_Factor\", 'memoryOnly') || 0;\n\n}\nelse if (Chart_Selection == \"LineaP\") {\n    LN = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Voltage\", 'memoryOnly') || 0;\n    LL = global.get(\"PQA.Real_Time_Parameters.Average_Line_Voltage\", 'memoryOnly') || 0;\n    THDV = global.get(\"PQA.Harmonics.Power_Quality.THD_avg\",'memoryOnly') || 0;\n    THDI = global.get(\"PQA.Harmonics.Power_Quality.THD_Iavg\", 'memoryOnly') || 0;\n    Corriente = global.get(\"PQA.Real_Time_Parameters.Average_Phase_Current\", 'memoryOnly') || 0;\n    Potencia = global.get(\"PQA.Real_Time_Parameters.Total_System_Power\",'memoryOnly')||0;\n    FP = global.get(\"PQA.Real_Time_Parameters.Total_Power_Factor\",'memoryOnly') || 0;\n}\n\nreturn [\n    { payload: catcherror(LN, 1) + \" \" + \"V\" },\n    { payload: catcherror(LL, 1) + \" \" + \"V\" },\n    { payload: catcherror(Corriente, 1) + \" \" + \"A\" },\n    { payload: catcherror(FP, 2) + \" \" + \"\" },\n    { payload: catcherror(THDV, 2) + \" \" + \"%\" },\n    { payload: catcherror(THDI, 2) + \" \" + \"%\" },\n    { payload: catcherror(Potencia, 1) + \" \" + \"kW\" },\n    { payload: catcherror(Frecuencia, 2) + \" \" + \"Hz\" }\n]\n\nfunction catcherror(variable, dec) {\n    return parseFloat(variable.toFixed(dec));\n}\n",
+        "outputs": 8,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "ebb09443ee832552"
+            ],
+            [
+                "1f8135572f14ee89"
+            ],
+            [
+                "bb738cfa3cff7bc9"
+            ],
+            [
+                "824a933d151e6dd6"
+            ],
+            [
+                "d205dbaea632b9c3"
+            ],
+            [
+                "63918716efe5d959"
+            ],
+            [
+                "6c81d81d5af4b363"
+            ],
+            [
+                "1f5eca3b3d4644e0"
+            ]
+        ],
+        "outputLabels": [
+            "LN",
+            "LL",
+            "Corriente",
+            "THDV",
+            "THDI",
+            "Potencia",
+            "FP",
+            "Frecuencia"
+        ]
+    },
+    {
+        "id": "ebb09443ee832552",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 3,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "LN:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 520,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "1f8135572f14ee89",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "LL:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 520,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "bb738cfa3cff7bc9",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Corriente:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 530,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "6c81d81d5af4b363",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 9,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Potencia:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 530,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d205dbaea632b9c3",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 7,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "THD (V):",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 530,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "63918716efe5d959",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 8,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "THD (I):",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 530,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "824a933d151e6dd6",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 6,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "FP:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 520,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "1f5eca3b3d4644e0",
+        "type": "ui_text",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "group": "a9939834aa62d782",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Frec.:",
+        "format": "<font size =4px>{{msg.payload}}",
+        "layout": "row-left",
+        "className": "",
+        "x": 520,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "7690c62e63030907",
+        "type": "switch",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "name": "home",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Principal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 170,
+        "y": 360,
+        "wires": [
+            [
+                "42aefbb15cef5169"
+            ]
+        ]
+    },
+    {
+        "id": "91adf3df1df1bf4e",
+        "type": "link in",
+        "z": "6518aabe6f06f6f4",
+        "g": "79baabe43250cc9f",
+        "name": "datos de fase",
+        "links": [
+            "7e6534ef71b0201d"
+        ],
+        "x": 85,
+        "y": 360,
+        "wires": [
+            [
+                "7690c62e63030907",
+                "c55f66f375e44d6b"
+            ]
+        ]
+    },
+    {
+        "id": "b7e3e782b317f3dd",
+        "type": "ui_chart",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "group": "a9939834aa62d782",
+        "order": 2,
+        "width": 10,
+        "height": 6,
+        "label": "{{msg.label}}",
+        "chartType": "bar",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Falla de comunicación con PQA",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#f20707",
+            "#033e8c",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1810,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fcb0150902a39169",
+        "type": "function",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "Harmonics chart generation",
+        "func": "var chart = \n[{\n    \"series\": [\"THD-V\", \"THD-I\"],\n    \"data\": msg.payload,\n    \"labels\": [ \"1o\", \"3o\",\"5o\",\"7o\",\"9o\",\"11o\",\"13o\"]\n}];\n\nmsg.payload = chart;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1620,
+        "y": 340,
+        "wires": [
+            [
+                "b7e3e782b317f3dd"
+            ]
+        ]
+    },
+    {
+        "id": "c5fecc81ab99cbf5",
+        "type": "ui_dropdown",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "label": "Fase",
+        "tooltip": "",
+        "place": "Seleccionar fase",
+        "group": "a9939834aa62d782",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "Fase1 ",
+                "value": "Linea1",
+                "type": "str"
+            },
+            {
+                "label": "Fase 2",
+                "value": "Linea2",
+                "type": "str"
+            },
+            {
+                "label": "Fase 3 ",
+                "value": "Linea3",
+                "type": "str"
+            },
+            {
+                "label": "Promedio",
+                "value": "LineaP",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "",
+        "topicType": "str",
+        "className": "",
+        "x": 1110,
+        "y": 390,
+        "wires": [
+            [
+                "98082a63869f198c"
+            ]
+        ]
+    },
+    {
+        "id": "2d16ae81892a1843",
+        "type": "link in",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "links": [
+            "97407954.a004c8"
+        ],
+        "x": 745,
+        "y": 420,
+        "wires": [
+            [
+                "7f2810865baf7092"
+            ]
+        ]
+    },
+    {
+        "id": "7f2810865baf7092",
+        "type": "switch",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "User in harmonics Screen ?",
+        "property": "name",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Principal",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "Principal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 920,
+        "y": 460,
+        "wires": [
+            [
+                "01a0273da1d95130"
+            ],
+            [
+                "956a8248b1a90f29"
+            ]
+        ]
+    },
+    {
+        "id": "01a0273da1d95130",
+        "type": "change",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::PQA.Harmonics_Chart.Prompt",
+                "pt": "flow",
+                "to": "true",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "956a8248b1a90f29",
+        "type": "change",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::PQA.Harmonics_Chart.Prompt",
+                "pt": "flow",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1220,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be658f2d97c06ae7",
+        "type": "function",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "Data Handle harmonics chart",
+        "func": "var PQA_Data                = global.get(\"PQA.Harmonics\", \"memoryOnly\") ||\"[]\";\nvar Chart_Selection         = flow.get(\"PQA.Harmonics_Chart.Selection\", \"memoryOnly\") || \"\";\n\nvar Linea1_V = Object.values(PQA_Data.V1_V12);\nvar Linea1_I = Object.values(PQA_Data.I1);\n\nvar Linea2_V = Object.values(PQA_Data.V2_V31);\nvar Linea2_I = Object.values(PQA_Data.I2);\n\n\nvar Linea3_V = Object.values(PQA_Data.V3_V23);\nvar Linea3_I = Object.values(PQA_Data.I3);\n\nvar LineaP_V = [\n                    ((Linea1_V[0]+Linea2_V[0]+Linea3_V[0])/3).toFixed(2),\n                    ((Linea1_V[1]+Linea2_V[1]+Linea3_V[1])/3).toFixed(2),\n                    ((Linea1_V[2]+Linea2_V[0]+Linea3_V[2])/3).toFixed(2),\n                    ((Linea1_V[3]+Linea2_V[0]+Linea3_V[3])/3).toFixed(2),\n                    ((Linea1_V[4]+Linea2_V[0]+Linea3_V[4])/3).toFixed(2),\n                    ((Linea1_V[5]+Linea2_V[0]+Linea3_V[5])/3).toFixed(2)\n                ];\nvar LineaP_I = [\n                    ((Linea1_I[0]+Linea2_I[0]+Linea3_I[0])/3).toFixed(2),\n                    ((Linea1_I[1]+Linea2_I[1]+Linea3_I[1])/3).toFixed(2),\n                    ((Linea1_I[2]+Linea2_I[0]+Linea3_I[2])/3).toFixed(2),\n                    ((Linea1_I[3]+Linea2_I[0]+Linea3_I[3])/3).toFixed(2),\n                    ((Linea1_I[4]+Linea2_I[0]+Linea3_I[4])/3).toFixed(2),\n                    ((Linea1_I[5]+Linea2_I[0]+Linea3_I[5])/3).toFixed(2),\n                ];\n\nif(Chart_Selection == \"Linea1\")\n    {\n        msg.payload =  [ Linea1_V , Linea1_I];\n        msg.label   = \"Porcentaje Armónico Línea 1\";\n    }\nelse if(Chart_Selection == \"Linea2\")\n    {\n        msg.payload =  [ Linea2_V , Linea2_I];\n        msg.label   = \"Porcentaje Armónico Línea 2\";\n    }\nelse if(Chart_Selection == \"Linea3\")\n    {\n        msg.payload =  [ Linea3_V , Linea3_I];\n        msg.label   = \"Porcentaje Armónico Línea 3\";\n    }\nelse if(Chart_Selection == \"LineaP\")\n    {\n        {\n        msg.payload =  [ LineaP_V , LineaP_I];\n        msg.label   = \"Porcentaje Armónico Promedio\";\n    }\n    }\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 1360,
+        "y": 340,
+        "wires": [
+            [
+                "fcb0150902a39169"
+            ]
+        ]
+    },
+    {
+        "id": "cf48cc7a9e511e75",
+        "type": "switch",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "Harmonics Chart Prompted? ",
+        "property": "#:(memoryOnly)::PQA.Harmonics_Chart.Prompt",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1080,
+        "y": 340,
+        "wires": [
+            [
+                "be658f2d97c06ae7"
+            ]
+        ]
+    },
+    {
+        "id": "98082a63869f198c",
+        "type": "change",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::PQA.Harmonics_Chart.Selection",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1370,
+        "y": 390,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a2eb2831d853fe64",
+        "type": "change",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "LineaP",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 880,
+        "y": 390,
+        "wires": [
+            [
+                "c5fecc81ab99cbf5"
+            ]
+        ]
+    },
+    {
+        "id": "955053ddb39412a7",
+        "type": "link in",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "links": [
+            "ecf98f3f.4a704"
+        ],
+        "x": 675,
+        "y": 340,
+        "wires": [
+            [
+                "328f4adfdbeef3a8"
+            ]
+        ]
+    },
+    {
+        "id": "395681ed3dad5171",
+        "type": "catch",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "scope": [
+            "be658f2d97c06ae7"
+        ],
+        "uncaught": false,
+        "x": 780,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "328f4adfdbeef3a8",
+        "type": "switch",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "home",
+        "property": "#:(memoryOnly)::Navegación.Pantalla",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Principal",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 770,
+        "y": 340,
+        "wires": [
+            [
+                "cf48cc7a9e511e75"
+            ]
+        ]
+    },
+    {
+        "id": "a258d4d09931e14f",
+        "type": "link in",
+        "z": "6518aabe6f06f6f4",
+        "g": "a4f221d85b9581dd",
+        "name": "",
+        "links": [
+            "e28cc76463d5d568",
+            "c4e5b48a61ef3ffd"
+        ],
+        "x": 735,
+        "y": 380,
+        "wires": [
+            [
+                "a2eb2831d853fe64"
+            ]
+        ]
+    },
+    {
+        "id": "5a2d64a78596c4c1",
+        "type": "ui_template",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "group": "a9939834aa62d782",
+        "name": "",
+        "order": 12,
+        "width": 16,
+        "height": "6",
+        "format": "<div ng-bind-html=\"msg.payload|trusted\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 720,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cfca65816885ed45",
+        "type": "template",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "name": "Template",
+        "field": "template",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!doctype html>\n<html lang=\"en\">\n    <head>\n        <!-- Required meta tags -->\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n    \n        <!-- Bootstrap CSS -->\n        <link rel=\"stylesheet\" href=\"http://aic.local:1880/bootstrap/dist/css/bootstrap.min.css\">\n    </head>\n    <body>\n        <div class=\"container\">\n            <div class=\"row d-flex justify-content-center\">\n                <div class=\"col-lg-9 col-md-9 mt-3\">\n                    <svg width=\"100%\" height=\"100%\" viewBox=\"-0.5 -0.5 685 217\" preserveAspectRatio=\"xMidYMid meet\"> \n                        {{{svg}}}\n                    </svg>\n                </div>\n            </div>\n        </div>\n        \n        <!-- Optional JavaScript -->\n        <script src=\"http://aic.local:1880/bootstrap/dist/js/bootstrap.bundle.min.js\"></script>\n    </body>\n</html>",
+        "output": "str",
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "5a2d64a78596c4c1"
+            ]
+        ]
+    },
+    {
+        "id": "8c65396ad9180d16",
+        "type": "template",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "name": "SVG",
+        "field": "svg",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "\n<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" content=\"&lt;mxfile host=&quot;Electron&quot; modified=&quot;2021-07-04T18:59:52.823Z&quot; agent=&quot;5.0 (Macintosh; Intel Mac OS X 10_16_0) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/12.9.13 Chrome/80.0.3987.163 Electron/8.2.1 Safari/537.36&quot; etag=&quot;1OluWO9qAZzVOdAMDwA4&quot; version=&quot;12.9.13&quot; type=&quot;device&quot;&gt;&lt;diagram id=&quot;3OBx4FIYkCEcJKEvSmJ7&quot; name=&quot;Página-1&quot;&gt;7VxRc9o4EP41PObGkowxjwnt9WaO69w0M+2zagujVliuLAK5X38SlgFbTgipYxuiF2J2pZX87X6rlWwyQrPV9pPA2fIfHhM2gl68HaEPIwgnYag+teCxEASeXwgSQeNCBA6Ce/ofMULPSNc0JnmloeScSZpVhRFPUxLJigwLwTfVZgvOqqNmOCGW4D7CzJZ+o7FcFtIQTg7yvwhNluXIIJgWmhUuG5s7yZc45psjEfo4QjPBuSyuVtsZYRq7Epei359PaPcTEySVL+nw48ff4ScaJtk2+HJ/+ytK5ht2E4wLMw+Yrc0dm9nKxxKCRPB1ZpoRIcm2CXj8vWzu2RMD+9tVYUL4ikjxqJoYQ6HpYSJkbKa0OcAdeKbJ8ghqCExDbFyc7C0fUFAXBogzQAGT06CQNL7V4aW+RQznOY1G6C6XWEhbvJQrNf4HsGsh+M99JClQ7grLJLbC8ADfM56zQT2CbdyAWikThGFJH6qDNiFpRviXUzWdp3wGvZovcr4WETGdjoPyhJ2aGYVnQqRlZufV/T3/hqNDy9EPc/BZSb5aDlckSGOirXnKa5slleQ+w5HWblTmq7r5Sba82q3GjF/Fy7e5EjZRxXsjpsCpY8oJpgDUElXqhsJuuVKOXuEKHDJXplW8gNczWXy3rJwkS1vrSt0Q8Ltli9+0sqAhswXUlhYQ9EwXFJxFl5Sn5DlSoIslRVsLSL14sAy99Qpi57/PQyNDGfxTO/j9TtcKV1idokWdF/V66MW0qPOrW1aMm+oqMIdDXiqmw9qFjJEjyymywOkfk6C6wNdLohcTxrbV8V5kDBs4A+fogjjT+24EnMUZu7pSSnNaC9AVF1uv5Ijf78GWzY85GBoxSiL0XGmN7W3GTN2adzs0vMoAndQSSc955LxC9d3s0l5bjdYTR8crK7Cr0bnt0GFkjknfmcPez87gBWWOBvy6fXhw3nnou0kdry7M67mj60NPaB96ztHQyFBig/rOHv5Z0f8eN60ItkSMuqGuj3hsXlzUQtHElW4PeOy3VPQZ2ZD3+/U3G/o+Iwua9vsBkzpdZDitQBj8WuuXku4WPJU3C7yiTN2EClY1twCvsh1sCPkaScIeiKQRtjS69e5zZyTfnRRoEwBm25quGFcrUy5WmFXVG4OO1vv6PSCjZERKIm7U5COaJo39lU/lDWY0SQt1pDxKRFVNVaykxrx3NLWdUgqc5gtltDSvKpCywYaLuDr6cfcF41g29IppnjFs4KQpo1pX4q2uEv1X79W9n99K/yh/Fy4qtKX4u3BOa8lpdQc4ZgyaGV9vHTUcNa4I5Dap8eVJbgyyTvLL5yJHhREAz+wp2q+Mmp4euiAfZpBrR7nKyKX/qwK5PWa4yshR46pAbpMal1oZ7X8513eh1HRi7WJ+mDGvz0ZdoeRWg6sCuT1muELJUeOqQG6TGhdeKAH4dpWS+nr4xX7xfPjwbw/Qx/8B&lt;/diagram&gt;&lt;/mxfile&gt;\" style=\"background-color: rgb(255, 255, 255);\"><defs/><g><path d=\"M 80 196.76 L 80 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 80 202.76 L 76 194.76 L 80 196.76 L 84 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 80 27.24 L 84 35.24 L 80 33.24 L 76 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"40\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 41px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1N}} V</div></div></div></foreignObject><text x=\"80\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1N}}V</text></switch></g><path d=\"M 130 196.76 L 130 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 130 202.76 L 126 194.76 L 130 196.76 L 134 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 130 87.24 L 134 95.24 L 130 93.24 L 126 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"90\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 91px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2N}} V</div></div></div></foreignObject><text x=\"130\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2N}} V</text></switch></g><path d=\"M 180 196.76 L 180 153.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 180 202.76 L 176 194.76 L 180 196.76 L 184 194.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 180 147.24 L 184 155.24 L 180 153.24 L 176 155.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"140\" y=\"165\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 175px; margin-left: 141px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL3N}} V</div></div></div></foreignObject><text x=\"180\" y=\"179\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL3N}} V</text></switch></g><path d=\"M 30 205 L 240 205\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"195\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 205px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">N</div></div></div></foreignObject><text x=\"20\" y=\"209\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">N</text></switch></g><path d=\"M 230 76.76 L 230 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 230 82.76 L 226 74.76 L 230 76.76 L 234 74.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 230 27.24 L 234 35.24 L 230 33.24 L 226 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L2}} V</div></div></div></foreignObject><text x=\"230\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L2}} V</text></switch></g><path d=\"M 229.76 136.76 L 229.76 93.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 229.76 142.76 L 225.76 134.76 L 229.76 136.76 L 233.76 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 229.76 87.24 L 233.76 95.24 L 229.76 93.24 L 225.76 95.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"190\" y=\"105\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 115px; margin-left: 191px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL2L3}} V</div></div></div></foreignObject><text x=\"230\" y=\"119\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL2L3}} V</text></switch></g><path d=\"M 30 25 L 480 25\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"15\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 25px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L1</div></div></div></foreignObject><text x=\"20\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1</text></switch></g><rect x=\"370\" y=\"15\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 25px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL1}} A</div></div></div></foreignObject><text x=\"410\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL1}} A</text></switch></g><path d=\"M 30 85 L 480 85\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"75\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 85px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L2</div></div></div></foreignObject><text x=\"20\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2</text></switch></g><rect x=\"370\" y=\"75\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 85px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL2}} A</div></div></div></foreignObject><text x=\"410\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL2}} A</text></switch></g><path d=\"M 30 145 L 480 145\" fill=\"none\" stroke=\"#000000\" stroke-width=\"3\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><rect x=\"0\" y=\"135\" width=\"40\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 38px; height: 1px; padding-top: 145px; margin-left: 1px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">L3</div></div></div></foreignObject><text x=\"20\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3</text></switch></g><path d=\"M 320 136.76 L 320 33.24\" fill=\"none\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"stroke\"/><path d=\"M 320 142.76 L 316 134.76 L 320 136.76 L 324 134.76 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><path d=\"M 320 27.24 L 324 35.24 L 320 33.24 L 316 35.24 Z\" fill=\"#000000\" stroke=\"#000000\" stroke-width=\"2\" stroke-miterlimit=\"10\" pointer-events=\"all\"/><rect x=\"370\" y=\"135\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 145px; margin-left: 371px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{CL3}} A</div></div></div></foreignObject><text x=\"410\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{CL3}} A</text></switch></g><rect x=\"280\" y=\"45\" width=\"80\" height=\"20\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 78px; height: 1px; padding-top: 55px; margin-left: 281px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \">{{VL1L3}} V</div></div></div></foreignObject><text x=\"320\" y=\"59\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">{{VL1L3}} V</text></switch></g><rect x=\"490\" y=\"0\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 25px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L1_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"29\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L1 kW...</text></switch></g><rect x=\"490\" y=\"60\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 85px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L2_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"89\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L2 kW...</text></switch></g><rect x=\"490\" y=\"120\" width=\"110\" height=\"50\" fill=\"#ffffff\" stroke=\"#000000\" pointer-events=\"all\"/><g transform=\"translate(-0.5 -0.5)\"><switch><foreignObject style=\"overflow: visible; text-align: left;\" pointer-events=\"none\" width=\"100%\" height=\"100%\" requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"><div xmlns=\"http://www.w3.org/1999/xhtml\" style=\"display: flex; align-items: unsafe center; justify-content: unsafe center; width: 108px; height: 1px; padding-top: 145px; margin-left: 491px;\"><div style=\"box-sizing: border-box; font-size: 0; text-align: center; \"><div style=\"display: inline-block; font-size: 12px; font-family: Helvetica; color: #000000; line-height: 1.2; pointer-events: all; white-space: normal; word-wrap: normal; \"><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kW}} kW</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVA}} kVA</span><br style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px\" /><span style=\"font-family: &quot;helvetica&quot; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; float: none ; display: inline\">{{L3_kVAR}} kVAR</span></div></div></div></foreignObject><text x=\"545\" y=\"149\" fill=\"#000000\" font-family=\"Helvetica\" font-size=\"12px\" text-anchor=\"middle\">L3 kW...</text></switch></g></g><switch><g requiredFeatures=\"http://www.w3.org/TR/SVG11/feature#Extensibility\"/><a transform=\"translate(0,-5)\" xlink:href=\"https://desk.draw.io/support/solutions/articles/16000042487\" target=\"_blank\"><text text-anchor=\"middle\" font-size=\"100px\" x=\"510%\" y=\"100%\">Viewer does not support full SVG 1.1</text></a></switch></svg>",
+        "output": "str",
+        "x": 410,
+        "y": 140,
+        "wires": [
+            [
+                "cfca65816885ed45"
+            ]
+        ]
+    },
+    {
+        "id": "c55f66f375e44d6b",
+        "type": "function",
+        "z": "6518aabe6f06f6f4",
+        "g": "b8bd404be934fa18",
+        "name": "Lectura PQA",
+        "func": "var PQM_Cluster = global.get(\"Cluster.PQM\",\"memoryOnly\")||[];\n// Lectura de valores de voltaje L1,L2,L3 respecto a neutro\nmsg.VL1N = global.get(\"PQA.Real_Time_Parameters.Phase_1_Voltage\", 'memoryOnly') || 0;\nmsg.VL1N = msg.VL1N.toFixed(2);\nmsg.VL2N = global.get(\"PQA.Real_Time_Parameters.Phase_2_Voltage\", 'memoryOnly') || 0;\nmsg.VL2N = msg.VL2N.toFixed(2);\nmsg.VL3N = global.get(\"PQA.Real_Time_Parameters.Phase_3_Voltage\", 'memoryOnly') || 0;\nmsg.VL3N = msg.VL3N.toFixed(2);\n\n// Lectura de valores de voltaje L1-L2,L2-L3,L1-L3\nmsg.VL1L2 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_1_2\", 'memoryOnly') || 0;\nmsg.VL1L2 = msg.VL1L2.toFixed(2);\nmsg.VL2L3 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_2_3\", 'memoryOnly') || 0;\nmsg.VL2L3 = msg.VL2L3.toFixed(2);\nmsg.VL1L3 = global.get(\"PQA.Real_Time_Parameters.Line_Voltage_3_1\", 'memoryOnly') || 0;\nmsg.VL1L3 = msg.VL1L3.toFixed(2);\n\n// Lectura de valores de corriente L1,L2,L3\nmsg.CL1 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_A_Current\", 'memoryOnly') || 0;\nmsg.CL1 = msg.CL1.toFixed(2);\nmsg.CL2 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_B_Current\", 'memoryOnly') || 0;\nmsg.CL2 = msg.CL2.toFixed(2);\nmsg.CL3 = global.get(\"PQA.Real_Time_Parameters.Total_Phase_C_Current\", 'memoryOnly') || 0;\nmsg.CL3 = msg.CL3.toFixed(2);\n\n// Lectura de valores de potencia activa kW\nmsg.L1_kW = global.get(\"PQA.Real_Time_Parameters.Phase_A_Power\", 'memoryOnly') || 0;\nmsg.L1_kW = msg.L1_kW.toFixed(2);\nmsg.L2_kW = global.get(\"PQA.Real_Time_Parameters.Phase_B_Power\", 'memoryOnly') || 0;\nmsg.L2_kW = msg.L2_kW.toFixed(2);\nmsg.L3_kW = global.get(\"PQA.Real_Time_Parameters.Phase_C_Power\", 'memoryOnly') || 0;\nmsg.L3_kW = msg.L3_kW.toFixed(2);\n\n// Lectura de valores de potencia aparente kVA\nmsg.L1_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_A_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L1_kVA = msg.L1_kVA.toFixed(2);\nmsg.L2_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_B_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L2_kVA = msg.L2_kVA.toFixed(2);\nmsg.L3_kVA = global.get(\"PQA.Real_Time_Parameters.Phase_C_Apparent_Power\", 'memoryOnly') || 0;\nmsg.L3_kVA = msg.L3_kVA.toFixed(2);\n\n// Lectura de valores de potencia reactiva kVAR\nmsg.L1_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_A_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L1_kVAR = msg.L1_kVAR.toFixed(2);\nmsg.L2_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_B_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L2_kVAR = msg.L2_kVAR.toFixed(2);\nmsg.L3_kVAR = global.get(\"PQA.Real_Time_Parameters.Phase_C_Reactive_Power\", 'memoryOnly') || 0;\nmsg.L3_kVAR = msg.L3_kVAR.toFixed(2);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 140,
+        "wires": [
+            [
+                "8c65396ad9180d16"
+            ]
+        ]
+    },
+    {
+        "id": "6f3306c5ea39f85f",
+        "type": "inject",
+        "z": "6518aabe6f06f6f4",
+        "name": "refresh 1s",
+        "props": [],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "7e6534ef71b0201d"
+            ]
+        ]
+    },
+    {
+        "id": "7e6534ef71b0201d",
+        "type": "link out",
+        "z": "6518aabe6f06f6f4",
+        "name": "refreshData",
+        "mode": "link",
+        "links": [
+            "91adf3df1df1bf4e"
+        ],
+        "x": 415,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "6b6e49f24907fda2",
+        "type": "ui_level",
+        "z": "6518aabe6f06f6f4",
+        "group": "f61eea71fe8e60ac",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "name": "Voltaje",
+        "label": "Voltaje",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "500",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Hz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1030,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "ecef4b7401c4b23b",
+        "type": "ui_level",
+        "z": "6518aabe6f06f6f4",
+        "group": "f61eea71fe8e60ac",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "name": "Corriente",
+        "label": "Corriente",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "200",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "A",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1040,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b4dbec00c3815b08",
+        "type": "ui_level",
+        "z": "6518aabe6f06f6f4",
+        "group": "f61eea71fe8e60ac",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "name": "Voltaje",
+        "label": "Voltaje",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "500",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Hz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1030,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "11a0cc51ad30589b",
+        "type": "ui_level",
+        "z": "6518aabe6f06f6f4",
+        "group": "f61eea71fe8e60ac",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "name": "Voltaje",
+        "label": "Voltaje",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "500",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Hz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1030,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "b3c24d8804f42604",
+        "type": "ui_level",
+        "z": "6518aabe6f06f6f4",
+        "group": "f61eea71fe8e60ac",
+        "order": 1,
+        "width": 4,
+        "height": 2,
+        "name": "Voltaje",
+        "label": "Voltaje",
+        "colorHi": "#e60000",
+        "colorWarn": "#ff9900",
+        "colorNormal": "#00b33c",
+        "colorOff": "#595959",
+        "min": 0,
+        "max": "500",
+        "segWarn": "",
+        "segHigh": "",
+        "unit": "Hz",
+        "layout": "sv",
+        "channelA": "",
+        "channelB": "",
+        "decimals": "1",
+        "animations": "soft",
+        "shape": 2,
+        "colorschema": "fixed",
+        "textoptions": "custom",
+        "colorText": "#eeeeee",
+        "fontLabel": "",
+        "fontValue": "",
+        "fontSmall": "0.8",
+        "colorFromTheme": true,
+        "textAnimations": false,
+        "hideValue": false,
+        "tickmode": "off",
+        "peakmode": false,
+        "property": "payload",
+        "peaktime": 3000,
+        "x": 1030,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "26428723.4b3e38",
+        "type": "exec",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 590,
+        "y": 820,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "bfa48676.a364f8",
+        "type": "delay",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 200,
+        "y": 820,
+        "wires": [
+            [
+                "26428723.4b3e38",
+                "8ff382d09fb168e3"
+            ]
+        ]
+    },
+    {
+        "id": "66496d795f4ee7fc",
+        "type": "link in",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "links": [
+            "58d10b0ab4c186c5"
+        ],
+        "x": 135,
+        "y": 1060,
+        "wires": [
+            [
+                "64526cf8d08d9bc4"
+            ]
+        ]
+    },
+    {
+        "id": "64526cf8d08d9bc4",
+        "type": "function",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "RefreshLogin",
+        "func": "var UserStatus = global.get(\"UserStatus\",\"memoryOnly\")||0;\nvar ctr = context.get(\"ctr\",\"memoryOnly\")||0;\nvar time = 3600*2;//tiempo en segundos\nif (UserStatus == 0 && ctr < time){\n    ctr = ctr +1;\n    node.status({fill:\"red\",shape:\"ring\",text:\"Conteo\" + \" \" + ctr});\n\n    if(ctr >= time){\n        ctr = 0;\n        msg.payload = \"sudo systemctl restart kiosk\";\n        context.set(\"ctr\", ctr, \"memoryOnly\");\n        return msg;\n    }\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}else{\n    ctr = 0;\n    node.status({fill:\"green\",shape:\"ring\",text:\"User\"});\n    context.set(\"UserStatus\",UserStatus,\"memoryOnly\")\n    context.set(\"ctr\", ctr,\"memoryOnly\")\n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 250,
+        "y": 1060,
+        "wires": [
+            [
+                "d6d77b20431c6fc2"
+            ]
+        ]
+    },
+    {
+        "id": "d6d77b20431c6fc2",
+        "type": "exec",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "command": "",
+        "addpay": "payload",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "0.5",
+        "winHide": false,
+        "oldrc": false,
+        "name": "kiosk",
+        "x": 390,
+        "y": 1060,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5a3b6dbb1b06ecc3",
+        "type": "exec",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "command": "echo Slacol1234 | sudo -S pkill chromium",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Kill chromium",
+        "x": 480,
+        "y": 880,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8ff382d09fb168e3",
+        "type": "delay",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "10",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 190,
+        "y": 880,
+        "wires": [
+            [
+                "5a3b6dbb1b06ecc3",
+                "e39536e36180e4d8"
+            ]
+        ]
+    },
+    {
+        "id": "8a4770bdf43b812c",
+        "type": "link in",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "IniciarKiosk",
+        "links": [
+            "ad87cee4.7dbb5"
+        ],
+        "x": 55,
+        "y": 820,
+        "wires": [
+            [
+                "bfa48676.a364f8"
+            ]
+        ]
+    },
+    {
+        "id": "95d0ba3af57e7b56",
+        "type": "exec",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "command": "echo Slacol1234 | sudo -S systemctl restart kiosk",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 590,
+        "y": 960,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e39536e36180e4d8",
+        "type": "delay",
+        "z": "f35c16add17629be",
+        "g": "1d0c3cb2.7129f3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 190,
+        "y": 960,
+        "wires": [
+            [
+                "95d0ba3af57e7b56"
+            ]
+        ]
+    },
+    {
+        "id": "7abe043b.fb14fc",
+        "type": "ui_ui_control",
+        "z": "f35c16add17629be",
+        "g": "e9e93a2c.deeb18",
+        "name": "",
+        "events": "change",
+        "x": 160,
+        "y": 660,
+        "wires": [
+            [
+                "97407954.a004c8",
+                "37f2db57.b831c4"
+            ]
+        ]
+    },
+    {
+        "id": "97407954.a004c8",
+        "type": "link out",
+        "z": "f35c16add17629be",
+        "g": "e9e93a2c.deeb18",
+        "name": "UI-Control Out",
+        "links": [
+            "1660e38d.24cefc",
+            "938193ac.02d98",
+            "8166c609.8e8328",
+            "441e9860.ad6ed8",
+            "2099abe.2850a54",
+            "a0e88921.4ebe88",
+            "fd328934.0ddd18",
+            "23b2730.9c7eb8e",
+            "645af99b.4e8a38",
+            "476a789d.6fd428",
+            "97494ae0.a13ca8",
+            "4482dc9f.5ee144",
+            "2b47642.2404d9c",
+            "51d66341.8ee0fc",
+            "d458c292.e2009",
+            "abd57ed0.925e2",
+            "eeb74e26.02437",
+            "487b8eaa.36a75",
+            "934e9a94.1a30a8",
+            "8c5351d8.97256",
+            "3dc16724.814948",
+            "a72a1eba.19d99",
+            "fb44ddcd.cf816",
+            "1708596a.fe0687",
+            "3df3dfb.cab992",
+            "e68ea72b.2110d8",
+            "2d483fd4.25515",
+            "9b86ac38.62861",
+            "ffb8c84.3759b38",
+            "11a5dcd.037cc23",
+            "1f5578b0.1b22d7",
+            "39f53b43.0969b4",
+            "11379727.11b049",
+            "4e9a700dde1096cf",
+            "aa73a11737c18f40",
+            "39a7cf283ee8e264",
+            "5ee4a60da483c541",
+            "d35710bff3d93d90",
+            "dc19234d7f6c1436",
+            "dd0739fd9e6348e6",
+            "014e809185179741",
+            "3157c937b070fc59",
+            "68f55546e9d05ca2",
+            "e6b555ce2e13edc0",
+            "9a4e1f31c48da3ad",
+            "c982f81bb2232785",
+            "657fc3784434945c",
+            "8db3135a85f1fab1",
+            "aeb29ded9a6b39dc",
+            "e2ca1b42759cafd3",
+            "8d74875ae734bcad",
+            "925c128e0b095b5c",
+            "0a7acbe98cc27eb5",
+            "51e2ba8e9d633518",
+            "c7137971c34bfda3",
+            "f6c1e52be5a7e8ef",
+            "adb1a0acdc299c85",
+            "610f87e6c3ac9ed0",
+            "a1c5e02a9d683eb4",
+            "f6609df4b5dd3ddd"
+        ],
+        "x": 305,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "805762db.d27b7",
+        "type": "link in",
+        "z": "f35c16add17629be",
+        "g": "e9e93a2c.deeb18",
+        "name": "UI-Control In",
+        "links": [
+            "502a7e8f.2ab2d",
+            "9eea6118.7b917",
+            "99ae3bc8.746f48",
+            "1882018b.4d179e",
+            "3296d851.080568",
+            "1981cd18.e62913",
+            "ea1ac6a6.fda178",
+            "d795f048.456e2",
+            "f7333c0a.a70d3",
+            "b0a2cd1a.ab273",
+            "fc7e2763.e00d48",
+            "63ae6ad3.b07874",
+            "e6e875a0.3f91d8",
+            "651fde0c.6b2e9",
+            "54a6e602.e31808",
+            "534cb822.fca4b8",
+            "762fd542.edc83c",
+            "ae913734.6c7e48",
+            "1b6d3ebacefe3d37",
+            "f95e46ccd8ac066d",
+            "3cbd8b298714a327",
+            "bbac1abcf840bd8f",
+            "82902d07cb7c62e8",
+            "a7d2cd08afbd2e76",
+            "fc47cb5558e17f7a",
+            "11fab97f0376f949",
+            "59195fbe9de6d8a5",
+            "7b495ef4bbce99f7",
+            "10d0df396dc90c03",
+            "13006add43952e28"
+        ],
+        "x": 65,
+        "y": 660,
+        "wires": [
+            [
+                "7abe043b.fb14fc"
+            ]
+        ]
+    },
+    {
+        "id": "37f2db57.b831c4",
+        "type": "change",
+        "z": "f35c16add17629be",
+        "g": "e9e93a2c.deeb18",
+        "name": "Pantalla",
+        "rules": [
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Navegación.Pantalla",
+                "pt": "global",
+                "to": "name",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "#:(memoryOnly)::Navegación.Tab",
+                "pt": "global",
+                "to": "tab",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 360,
+        "y": 700,
+        "wires": [
+            []
         ]
     }
 ]
